@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Dreamer.Fan</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="main.css">   
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <script src="jquery.min.js"></script>
+   <script src="Chart.js"></script>
+</head>
+
+<body>
+   <div id="page-wrapper">
+     <header id="header">
+	   <nav>
+	     <ul>
+		   <li><a href="index.html">个人简历</a></li>
+		   <li><a href="blog.html">个人博客</a></li>
+		 </ul>
+	   </nav>
+	   <div id="banner">
+	     <div class="inner">
+		    <h1>樊家澍</h1>
+			<hr color=#fff width=100% size=2></hr>
+			<p>做个快乐的程序员|fanjiashu@sina.com</p>
+			<button><a href="#section1">了解我</a></button>
+		 </div>
+	   </div>
+	 </header>
+	 
+	 <div id="intro">
+	   <section id="section1">
+	      <div class="wrapper">
+		    <div>
+			  <h2>关于我</h2>
+			  <hr color=#fff width=100% size=2></hr>
+			  <p>我是2017年应届毕业生，对编程有浓厚的兴趣，有极客思想，同时在产品、媒体方向有自己的思想。<br>心有猛虎，低嗅蔷薇。</p>
+		    </div>
+		  </div>
+	   </section>
+	   <section id="section2">
+	  	  <div class="situation">
+		    <div>
+			  <h2>基本情况</h2>
+			  <hr color=#fff width=100% size=2></hr>
+			  <p>我的基本情况啊啊啊啊</p>
+		    </div> 
+		  </div>
+		  <div class="card-group">
+		    <div id="card">
+			<h3>个人资料</h3>
+			<p>樊家澍<br>1995年4月10日<br>2013-2017  北京邮电大学  信息工程专业<br>152XXXXXXXX<br>fanjiashu@sina.com</p>
+			</div>
+			<div id="card">
+			<h3>主修课程</h3>
+			<p>数据结构<br>C++<br>JAVA<br>微机原理<br>计算机网络<br>网络管理</p>
+			</div>
+			<div id="card">
+			<h3>学习经历</h3>
+			<p>连续三年奖学金获得者<br>专业成绩前30%<br>曾任职校学生会副部长<br>微软俱乐部、百度俱乐部等技术类社团核心成员</p>
+			</div>
+			<div id="card">
+			<h3>获奖作品</h3>
+			<p>大学生创新成果展-激光雕刻机<br>电子商务策划大赛</p>
+			</div>
+		  </div>
+	   </section>
+	   <section id="section3">
+	     <div class="exp">
+		    <div>
+			  <h2>实习经历</h2>
+			  <hr color=#fff width=100% size=2></hr>
+			  <p>在校期间在多家公司进行实习</p>
+		    </div> 
+			<section class="img1">
+		      <div class="images">
+			    <img src="pic02.jpg" alt="">
+			  </div>
+			  <div class="exp-section">
+			    <h2>中国移动</h2>
+			    <p>网络创新部门技术员<br>负责爬虫的编写，进行数据采集与整理<br>视频流畅度监测，并通过后台抓取进行故障分析<br>通话质量测试与维护</p>
+			</section>
+			
+			<section class="img2">
+		      <div class="images">
+			    <img src="pic03.jpg" alt="">
+			  </div>
+			  <div class="exp-section">
+			    <h2>安永会计事务所</h2>
+			    <p>咨询部门实习生<br>随团队进行项目的跟进-中国银行技术体系的升级<br>进行采访与提纲整理<br>辅助进行人力资源模型的建立与修改</p>
+			</section>
+			
+			<section class="img3">
+		      <div class="images">
+			    <img src="pic04.jpg" alt="">
+			  </div>
+			  <div class="exp-section">
+			    <h2>大学生创新项目</h2>
+			    <p>团队核心成员<br>负责前端部分的编码与测试<br>进行接口部分G代码的编写，将外设与树莓派进行连接</p>
+			</section>
+		 </div>
+	   </section>
+	   <section id="section4">
+	   <div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h2>个人技能</h2>
+						<hr color=#fff width=100% size=2></hr>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+						<h3>Javascript</h3>
+						<br>
+						<div class="yuan">  
+                          <div class="yuan_bl1"></div>  
+                          <div class="yuan_text">80%</div>  
+                        </div>  
+                        <script>  
+                          $(function(){  
+                          //初始化  
+                          var bl = parseInt($('.yuan_text').html());  
+						  var rotatenum = bl;  
+                          if(bl > 180){  
+                             var blhtml = '';  
+                             rotatenum = bl - 180;  
+                             blhtml += '<div class="yuan_bl2">';  
+                             blhtml += '<div class="yuan_bl4" style="-webkit-transform:rotate(' + rotatenum + 'deg);transform:rotate(' + rotatenum + 'deg);"></div>';  
+                             blhtml += '</div>';  
+                             //$('.yuan_bl1').remove($('.yuan_bl3'));  
+                             $('.yuan_bl1').after(blhtml);  
+                             }
+							 else{  
+                             var blhtml = '';  
+                             blhtml += '<div class="yuan_bl3" style="-webkit-transform:rotate(' + rotatenum + 'deg);transform:rotate(' + rotatenum + 'deg);"></div>';  
+                             $('.yuan_bl1').append(blhtml);  
+                             }  
+                            })  
+                        </script>  
+					</div>
+			
+					
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+						<h3>HTML/CSS</h3>
+						<br>
+						<div class="yuan">  
+                          <div class="yuan_bl1"></div>  
+                          <div class="yuan_text">80%</div>  
+                        </div>  
+                        <script>  
+                          $(function(){  
+                          //初始化  
+                          var bl = parseInt($('.yuan_text').html());  
+						  var rotatenum = bl;  
+                          if(bl > 180){  
+                             var blhtml = '';  
+                             rotatenum = bl - 180;  
+                             blhtml += '<div class="yuan_bl2">';  
+                             blhtml += '<div class="yuan_bl4" style="-webkit-transform:rotate(' + rotatenum + 'deg);transform:rotate(' + rotatenum + 'deg);"></div>';  
+                             blhtml += '</div>';  
+                             //$('.yuan_bl1').remove($('.yuan_bl3'));  
+                             $('.yuan_bl1').after(blhtml);  
+                             }
+							 else{  
+                             var blhtml = '';  
+                             blhtml += '<div class="yuan_bl3" style="-webkit-transform:rotate(' + rotatenum + 'deg);transform:rotate(' + rotatenum + 'deg);"></div>';  
+                             $('.yuan_bl1').append(blhtml);  
+                             }  
+                            })  
+                        </script>  
+					</div>
+					
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div>
+	   
+	   </section>
+	   <section id="footer">
+	   <div id="contact">
+	   <h2>&nbsp; 联系我</h2>
+	   <p> &nbsp;&nbsp;  Email:fanjiashu@sina.com</p>
+	   <p>  &nbsp;&nbsp; Phone:152XXXXXXXX</p>
+	   <br>
+	   <p> &nbsp;&nbsp;  Created by Dreamer.Fan</p>
+	   
+	   
+	   </div>
+	   </section>
+	   
+	   
+	 </div>
+    
+</body>
+</html>

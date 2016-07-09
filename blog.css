@@ -1,0 +1,242 @@
+nav
+{
+	background-color: transparent;
+	height: 50px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+	font-family: 微软雅黑;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration: none;
+	color: #777;
+}
+
+#banner
+{
+	background-color: transparent;
+	height: 500px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	
+}
+
+#banner .inner h1
+{
+	margin: 0px;
+	color: #fff;
+	font-family: 微软雅黑;
+}
+
+#banner .inner p
+{
+	margin-bottom: 50px;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+
+#banner .inner button
+{
+	font-family: 微软雅黑;
+	font-size: 20px;
+    border-style: none;
+    border-color: #3b7d9e;
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 20px;
+    margin: 5px;
+}
+#banner .inner a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+#page-wrapper
+{
+	background: #444 url(pic01.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.col1
+{
+	float: left;
+	height: 300px;
+	width: 200px;
+	background-color: #eef1ea;
+}
+
+.col1 .col1header
+{
+	height: 30px;
+	background-color: #eef1ea;	
+	font-family: 微软雅黑;
+}
+
+.col1 .col1header >div
+{
+	float: center;
+}
+
+.col1 .col1header :after
+{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.col1 .col1header #face
+{
+	width: 200px;
+	height: 200px;
+    text-align: center;
+}
+
+.col1 .col1header #face img
+{
+	width: 100%;	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.col1 .col1header #personal
+{
+    font-family: 微软雅黑;
+	padding: 10px;
+}
+
+#section1
+{
+	text-align: center;
+	height: 400px;
+	background-color: #2ECC71;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section1:hover
+{
+	text-align: center;
+	height: 400px;
+	background-color: #27AE60;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section2
+{
+	text-align: center;
+	height: 400px;
+	background-color: #1ABC9C;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section2:hover
+{
+	text-align: center;
+	height: 400px;
+	background-color: #16A085;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section3
+{
+	text-align: center;
+	height: 400px;
+	background-color: #3498DB;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section3:hover
+{
+	text-align: center;
+	height: 400px;
+	background-color: #2980B9;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section4
+{
+	text-align: center;
+	height: 400px;
+	background-color: #9B59B6;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section4:hover
+{
+	text-align: center;
+	height: 400px;
+	background-color: #8E44AD;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section5
+{
+	text-align: center;
+	height: 400px;
+	background-color: #34495E;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+#section5:hover
+{
+	text-align: center;
+	height: 400px;
+	background-color: #2C3E50;
+	color: #fff;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+.wrapper a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
